@@ -77,10 +77,10 @@ By offering these features, the ECG Signal Viewer bridges the gap between data v
 Install dependencies with:
 
 
-pip install numpy matplotlib scipy pywavelets
+`pip install numpy matplotlib scipy pywavelets`
 
 
-Usage
+## Usage
 Open a Folder: Select the folder containing ECG signal files (e.g., .D20, .D21, .D22, .bin, .ecg).
 
 Select Signal: Choose the signal file you want to view from the dropdown.
@@ -94,11 +94,11 @@ Navigate Through Signals: Use the "Next" and "Previous" buttons to cycle through
 Save Results: After selecting rhythm and morphology for the signal, click the "Save" button to record the selections in a results.csv file.
 
 
-Code Description
+## Code Description
 
-Key Components:
+## Key Components:
 
-Signal Processing:
+## Signal Processing:
 
 Lowpass Filter: Applied to each lead to remove high-frequency noise.
 
@@ -121,4 +121,18 @@ apply_power_line_filter(signal_data, sample_rate, power_line_frequency): Applies
 show_current_signal(): Displays the current ECG signal on the GUI.
 
 save_results(): Saves the selected rhythm, morphology, and timestamp to a CSV file.
+
+## Troubleshooting
+
+* No signals displayed: Ensure that the selected folder contains ECG files and that the correct signal extension is chosen.
+
+* No response when selecting a signal: Check that the file format is compatible and contains valid ECG data.
+
+#Future Improvements
+
+* Support for additional signal processing techniques (e.g., wavelet transforms).
+  
+* Enhanced error handling for unsupported file formats.
+  
+*Ability to display more detailed information about the selected signal.
 
