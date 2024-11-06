@@ -41,3 +41,19 @@ Install dependencies with:
 
 ```bash
 pip install numpy matplotlib scipy pywavelets
+
+
+### Key Sections Explained:
+1. **Installation**: Instructions for setting up the project on your local machine, including how to install dependencies using `pip`.
+2. **Usage**: Describes how to use the app, from opening the folder to saving results.
+3. **Code Description**: An overview of the functionality and key functions within the code.
+4. **Example**: A simple example to get started running the script.
+5. **License**: A placeholder for the project's license.
+6. **Acknowledgments**: Mentions any libraries or third-party resources used in the project.
+
+### How to use:
+1. Copy the content above into a file named `README.md`.
+2. Commit and push the `README.md` to your GitHub repository to make it viewable in the GitHub interface.
+
+This format will render correctly on GitHub, making it easy for others to understand how to use and contribute to your project.
+
